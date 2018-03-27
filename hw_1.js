@@ -171,5 +171,15 @@ for(var i = 0; i < bondFilms.length; i++){
 console.log(arrayOfTitle);
 
 
+var oddYear = bondFilms[0].year;
+var addArray = [];
+console.log(oddYear);
+for (let i = 0;i < bondFilms.length;i++){
+	if(bondFilms[i].year % 2 !== 0){
+		addArray.push(bondFilms[i].year);
+	}
+}
+console.log(addArray);
+
 
    
