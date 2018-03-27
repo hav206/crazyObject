@@ -114,6 +114,26 @@ console.log(crazyObject.larry.characters[2].favourtieHobby);
 console.log(crazyObject.larry.nicknames[1]);
 console.log(crazyObject.larry.characters[1].name);
 
+const inception1 = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+console.log(inception1.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null);
+
 
 
    
