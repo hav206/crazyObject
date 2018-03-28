@@ -193,5 +193,18 @@ for (let i = 0; i < bondFilms.length; i++)
 }
 console.log(total);
 
+const asdfasdf = [
+    true,
+    false,
+    ()=>{
+        return {
+            foo: 'some value'
+        }
+    },
+    'apple'
+]
+
+
+
 
    
